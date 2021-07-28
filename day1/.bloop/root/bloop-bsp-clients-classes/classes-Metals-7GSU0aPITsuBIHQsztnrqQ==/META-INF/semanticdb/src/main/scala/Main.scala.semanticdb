@@ -1,84 +1,0 @@
-
-’src/main/scala/Main.scala*'
-_empty_/Main$package. *_empty_€*/
-_empty_/Main$package.product().*product€*,
-"_empty_/Main$package.product().[A]	*A€*,
-"_empty_/Main$package.product().[B]	*B€*.
-#_empty_/Main$package.product().(xs)*xs€*.
-#_empty_/Main$package.product().(ys)*ys€*
-local0*x€*
-local1*y€*+
-_empty_/Main$package.hello().*hello€*
-local2 €*lines€*
-local3 €*intLines€*
-local4*x$1€*
-local5*x€*
-local6*y€*
-local7*x€*
-_empty_/hello# *hello€*+
-_empty_/hello#`<init>`(). €@*<init>€*%
-_empty_/hello#main(). € *main€*(
-_empty_/hello#main().(args)*args€*
-local8 €*error€2
- scala/io/Source.2
- scala/io/Source#2
- 	scala/io/2
- scala/2
-_empty_/Main$package.2-
- _empty_/Main$package.product().20
- "_empty_/Main$package.product().[A]20
- "_empty_/Main$package.product().[B]21
- #_empty_/Main$package.product().(xs)2!
- scala/package.List#20
- "_empty_/Main$package.product().[A]21
-  "#_empty_/Main$package.product().(ys)2!
-% )scala/package.List#20
-* +"_empty_/Main$package.product().[B]2D
-# *6scala/collection/StrictOptimizedIterableOps#flatten().24
- &scala/collection/immutable/List#map().21
- #_empty_/Main$package.product().(xs)2
-	 
-local024
- &scala/collection/immutable/List#map().21
- #_empty_/Main$package.product().(ys)2
- local12#
- scala/Tuple2.apply().2
- local02
- local12'
-* *scala/Predef.$conforms().2
- scala/main#2+
-
- _empty_/Main$package.hello().2
- scala/Unit#2
- local228
-4 :*scala/collection/IterableOnceOps#toList().21
-+ 3#scala/io/BufferedSource#getLines().2)
- scala/io/Source.fromFile().2
- scala/io/Source.2E
-* *7scala/io/LowPriorityCodecImplicits#fallbackSystemCodec.2
- local324
- &scala/collection/immutable/List#map().2
- local221
- "#scala/collection/StringOps#toInt().2+
- scala/Predef.augmentString().28
-> E*scala/collection/immutable/List#foreach().27
- $)scala/collection/immutable/List#filter().2-
- 	_empty_/Main$package.product().2
-
- local32
- local32
-& 'local52
-& &scala/Tuple2#_1.2
-) *local62
-) )scala/Tuple2#_2.2!
-5 7scala/Int#`==`(+3).2 
-1 2scala/Int#`+`(+4).2
-/ 0local52
-3 4local62'
-F Mscala/Predef.println(+1).2
-F Flocal72
-_empty_/hello#2#
-_empty_/hello#`<init>`().2'
-_empty_/Main$package.hello().23
-)scala/util/CommandLineParser.showError().2
-local8PZ F77F666CA42A6C7CD92AE4476D054773

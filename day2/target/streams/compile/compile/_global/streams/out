@@ -1,0 +1,14 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /home/ari/scala-advent/day2/src/main/scala/Main.scala:20:14 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m20 |[0m    [36ml[0m => parse(line, l) [33mmatch[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |         [33m^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |It would fail on pattern case: PasswordParser.Failure(_, _), PasswordParser.Error(_, _)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /home/ari/scala-advent/day2/src/main/scala/Main.scala:11:17 ----------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m11 |[0m          { [33mcase[0m (fst : [35mString[0m) ~ (snd : [35mString[0m) ~ (char : [35mString[0m) ~ (str : [35mString[0m) =>[0m
+[0m[[0m[31merror[0m] [0m[0m   |                 [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   | this case is unreachable since type String is not a subclass of [33mclass[0m [35m~[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
