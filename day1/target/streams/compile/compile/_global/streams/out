@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/ari/scala-advent/day1/src/main/scala/Main.scala:12:19 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m    .filter(t => t._1 + t._2 + t._3 == [31m2020[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                 [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                 value _1 is not a member of List[(Int, Int, Int)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/ari/scala-advent/day1/src/main/scala/Main.scala:13:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m      .foreach(t => println(t._1 * t._2 * t._3))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                            [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                       value _1 is not a member of List[(Int, Int, Int)][0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

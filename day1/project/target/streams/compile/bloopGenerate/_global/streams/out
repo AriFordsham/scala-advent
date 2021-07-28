@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[day1-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[day1-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'day1-build' to '/home/ari/scala-advent/day1/project/.bloop/day1-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/day1-build.json[0m
