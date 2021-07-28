@@ -1,5 +1,5 @@
 
-–src/main/scala/Main.scala*'
+çsrc/main/scala/Main.scala*'
 _empty_/Main$package. *_empty_€*+
 _empty_/Main$package.hello().*hello€*
 local0 €*lines€*
@@ -9,17 +9,16 @@
 local4*down€*
 local5 €*width€*
 local6 €*hd€*
-local7*i€*
-local8*x€*
-local9 €*part2€*
-local10*x$1€*
-local11 €*r€*
-local12 €*d€*
+local7*i€*
+local8*x$1€*
+local9 €*r€*
+local10 €*d€*
+local11*x€*
 _empty_/hello# *hello€*+
 _empty_/hello#`<init>`(). €@*<init>€*%
 _empty_/hello#main(). € *main€*(
 _empty_/hello#main().(args)*args€*
-local13 €*error€2
+local12 €*error€2
  scala/io/Source.2
  scala/io/Source#2
  	scala/io/2
@@ -51,8 +50,7 @@ scala/Int#2
 % 'scala/package.`::`.2
 " $local62(
 0 6java/lang/String#length().2
-- /local627
-	 )scala/collection/IterableOnceOps#count().25
+- /local625
 
 
  
@@ -98,15 +96,12 @@ scala/Int#2
  'local32
 
 +
- 0local52&
- scala/Predef.identity().2
- local82'
+ 0local52'
  	scala/Predef.println(+1).2%
  java/lang/String#`+`().2
  &local12
-' ,local02
- local929
-	 +scala/collection/IterableOnceOps#product().24
+' ,local028
+	 *scala/collection/immutable/List#foreach().24
  
 &scala/collection/immutable/List#map().27
  )scala/collection/IterableFactory#apply().2!
@@ -117,22 +112,23 @@ scala/Int#2
  scala/Tuple2.apply().2#
  scala/Tuple2.apply().2#
  scala/Tuple2.apply().2#
-" "scala/Tuple2.apply().2
- local102%
- scala/Tuple2.unapply().2
- local112
- local122!
-7 =scala/Int#toLong().2
- )local12
-* /local02
-1 2local112
-4 5local1220
- "scala/math/Numeric.LongIsIntegral.2'
- 	scala/Predef.println(+1).2%
- java/lang/String#`+`().2
- local92
+" "scala/Tuple2.apply().2
+ local82%
+ scala/Tuple2.unapply().2
+ local92
+ local102#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2
+ local92
+  !local102
+$ 1local12
+2 7local02
+9 :local92
+< =local102'
+ scala/Predef.println(+1).2
+ local112
 _empty_/hello#2#
 _empty_/hello#`<init>`().2'
 _empty_/Main$package.hello().23
 )scala/util/CommandLineParser.showError().2
-local13PZ 1F6F769953B25889A70D2C64E3CDF40F
+local12PZ CF3FF3D6E519578867DD1C70AF2D2930

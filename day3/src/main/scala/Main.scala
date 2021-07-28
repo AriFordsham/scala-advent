@@ -7,8 +7,8 @@ import scala.io.Source
   def treesForSlope(rows : List[String], right : Int, down : Int) = {
     val width = rows match { case hd :: _ => hd.length }
 
-    (down to (rows.length-1) by down)
-      .map(i => rows(i).charAt((i*right) % width) == '#')
+    (1 to ((rows.length-1)/down))
+      .map(i => rows(i*down).charAt((i*right) % width) == '#')
         .count(identity)
   }
 
