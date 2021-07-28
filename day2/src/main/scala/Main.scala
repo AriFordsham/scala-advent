@@ -14,14 +14,6 @@ object PasswordParser extends JavaTokenParsers:
 
   val lines = Source.fromFile("input.txt").getLines.toList
 
-  // val ans = lines.filter(
-  //   l => parse(line, l) match
-  //     case Success((min, max, char, str) , _) => {
-  //       val n = str.count(_==char)
-  //       n >= min && n <= max
-  //     }
-  // ).length
-
   def withParse(ls : List[String], f : (Int, Int, Char, String) => Boolean) =
     ls.filter(
       l => parse(line, l) match

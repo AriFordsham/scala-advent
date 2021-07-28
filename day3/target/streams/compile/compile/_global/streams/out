@@ -1,0 +1,17 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/ari/scala-advent/day3/src/main/scala/Main.scala:19:49 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m      .map({ [33mcase[0m (r, d) => treesForSlope(lines, r, d) })[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                 [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                 Found:    (r : Long)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                 Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/ari/scala-advent/day3/src/main/scala/Main.scala:19:52 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m      .map({ [33mcase[0m (r, d) => treesForSlope(lines, r, d) })[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                    Found:    (d : Long)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                    Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/ari/scala-advent/day3/src/main/scala/Main.scala:20:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m20 |[0m        .count(identity)[0m
+[0m[[0m[31merror[0m] [0m[0m   |               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |               Found:    (x : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |               Required: Boolean[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

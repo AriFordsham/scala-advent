@@ -1,0 +1,110 @@
+
+Œsrc/main/scala/Main.scala*'
+_empty_/Main$package. *_empty_€*+
+_empty_/Main$package.hello().*hello€*
+local0 €*lines€*
+local1*treesForSlope€*
+local2*rows€*
+local3*right€*
+local4*down€*
+local5 €*width€*
+local6 €*hd€*
+local7*i€*
+local8*x€*
+local9 €*part2€*
+local10*x$1€*
+local11 €*r€*
+local12 €*d€*
+_empty_/hello# *hello€*+
+_empty_/hello#`<init>`(). €@*<init>€*%
+_empty_/hello#main(). € *main€*(
+_empty_/hello#main().(args)*args€*
+local13 €*error€2
+ scala/io/Source.2
+ scala/io/Source#2
+ 	scala/io/2
+ scala/2
+_empty_/Main$package.2
+ scala/main#2+
+
+ _empty_/Main$package.hello().2
+ scala/Unit#2
+ local028
+4 :*scala/collection/IterableOnceOps#toList().21
++ 3#scala/io/BufferedSource#getLines().2)
+ scala/io/Source.fromFile().2
+ scala/io/Source.2E
+* *7scala/io/LowPriorityCodecImplicits#fallbackSystemCodec.2
+ local12
+ local22!
+ scala/package.List#2"
+  &scala/Predef.String#2
+) .local32
+1 4
+scala/Int#2
+6 :local42
+= @
+scala/Int#2
+ local52
+ local228
+' '*scala/collection/immutable/`::`.unapply().2!
+% 'scala/package.`::`.2
+" $local62(
+0 6java/lang/String#length().2
+- /local627
+	 )scala/collection/IterableOnceOps#count().25
+ 
+'scala/collection/immutable/Range#map().24
+ &scala/collection/immutable/Range#by().2)
+
+ scala/runtime/RichInt#to().26
+ (scala/LowPriorityImplicits#intWrapper().2
+ 	local42 
+ scala/Int#`-`(+3).27
+ )scala/collection/immutable/List#length().2
+ local22
+  $local42
+ local72"
+2 4scala/Char#`==`(+2).2(
+ java/lang/String#charAt().24
+ &scala/collection/LinearSeqOps#apply().2
+ local22
+ local72 
+) *scala/Int#`%`(+3).2 
+! "scala/Int#`*`(+3).2
+  !local72
+" 'local32
++ 0local52&
+ scala/Predef.identity().2
+ local82'
+ 	scala/Predef.println(+1).2%
+ java/lang/String#`+`().2
+ &local12
+' ,local02
+ local929
+	 +scala/collection/IterableOnceOps#product().24
+ 
+&scala/collection/immutable/List#map().27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2#
+
+ 
+scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+" "scala/Tuple2.apply().2
+ local102%
+ scala/Tuple2.unapply().2
+ local112
+ local122
+ )local12
+* /local02
+1 2local112
+4 5local122/
+ !scala/math/Numeric.IntIsIntegral.2
+_empty_/hello#2#
+_empty_/hello#`<init>`().2'
+_empty_/Main$package.hello().23
+)scala/util/CommandLineParser.showError().2
+local13PZ 25B8FAEE227573E6AAA5085040CA923A
