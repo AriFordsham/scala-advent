@@ -6,8 +6,8 @@ def cross[A](xs : List[List[A]], ys : List[List[A]]) =
 def solve(xs : List[List[Int]]) =
   xs
     .filter(_.sum == 2020)
-      .map(_.product)
-        .toSet
+    .map(_.product)
+    .toSet
 
 @main def hello: Unit = 
   val lines = Source.fromFile("input.txt").getLines.toList

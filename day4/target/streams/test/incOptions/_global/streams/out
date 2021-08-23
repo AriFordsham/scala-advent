@@ -1,0 +1,2 @@
+[debug] Created transactional ClassFileManager with tempDir = /home/ari/scala-advent/day4/target/scala-3.0.1/test-classes.bak
+[debug] Removing the temporary directory used for backing up class files: /home/ari/scala-advent/day4/target/scala-3.0.1/test-classes.bak

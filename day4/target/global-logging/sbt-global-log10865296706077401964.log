@@ -1,0 +1,14 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 112 __a5ad0cbe-4e3a-432b-935b-09a08d5ac209, None, None)
+[debug] > Exec(bspScalaTestClasses file:/home/ari/scala-advent/day4/#root/Compile, Some(__a5ad0cbe-4e3a-432b-935b-09a08d5ac209), Some(CommandSource(network-2)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/scalaTestClasses"})
+[debug] Evaluating tasks: bspScalaTestClasses
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed Aug 10, 2021, 6:18:11 PM
+[debug] > Exec(sbtCompleteExec 112, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 112, Some(112), Some(CommandSource(network-2)))
+[debug] unmatched Processing event for requestId Some(112): None
+[debug] unmatched json response for requestId Some(112): {"status":"Done","channelName":"network-2","execId":"112","commandQueue":["shell"],"exitCode":0}
+[debug] > Exec(shell, None, None)

@@ -1,0 +1,8 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /home/ari/scala-advent/day4/src/main/scala/Main.scala:38:27 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m38 |[0m      simpleParser.parseAll(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |      [33m^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |      [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |      It would fail on pattern case: Left(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

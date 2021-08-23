@@ -1,0 +1,30 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 6 __a2a70b2d-47ab-4fd4-8493-7a706158ca81, None, None)
+[debug] > Exec(bspScalaMainClasses file:/home/ari/scala-advent/day4/#root-build file:/home/ari/scala-advent/day4/#root/Test file:/home/ari/scala-advent/day4/#root/Compile, Some(__a2a70b2d-47ab-4fd4-8493-7a706158ca81), Some(CommandSource(network-1)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/scalaMainClasses"})
+[debug] Evaluating tasks: bspScalaMainClasses
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] buildTarget/scalaMainClasses is a no-op for build.sbt targets: [BuildTargetIdentifier(file:/home/ari/scala-advent/day4/#root-build)]
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"2","parents":[]},"eventTime":1627643734141,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/ari/scala-advent/day4/#root/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/ari/scala-advent/day4/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/home/ari/scala-advent/day4/#root/Compile"},"diagnostics":[{"range":{"start":{"line":39,"character":9},"end":{"line":42,"character":9}},"severity":2,"source":"sbt","message":"\u001b[33mmatch\u001b[0m may not be exhaustive.\n\nIt would fail on pattern case: PassportParser.Failure(_, _), PassportParser.Error(_, _)\n"}],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"2","parents":[]},"eventTime":1627643734429,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/ari/scala-advent/day4/#root/Compile"},"errors":0,"warnings":1,"time":288}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"3","parents":[]},"eventTime":1627643734456,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/ari/scala-advent/day4/#root/Test"}}})
+[info] compiling 1 Scala source to /home/ari/scala-advent/day4/target/scala-3.0.1/test-classes ...
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to /home/ari/scala-advent/day4/target/scala-3.0.1/test-classes ..."})
+[warn] Canceling execution...
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])
+[warn] Canceling execution...
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])
+[error] -- [E006] Not Found Error: /home/ari/scala-advent/day4/src/test/scala/Test1.scala:6:50 
+[error] 6 |    assertEquals("I was compiled by Scala 3. :)", msg)
+[error]   |                                                  ^^^
+[error]   |                                                  Not found: msg
+[error] one error found
+[error] one error found
+[error] Cancelled: bspScalaMainClasses file:/home/ari/scala-advent/day4/#root-build file:/home/ari/scala-advent/day4/#root/Test file:/home/ari/scala-advent/day4/#root/Compile
+[error] Cancelled: bspScalaMainClasses file:/home/ari/scala-advent/day4/#root-build file:/home/ari/scala-advent/day4/#root/Test file:/home/ari/scala-advent/day4/#root/Compile
+[error] Use 'last' for the full log.
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 6, Some(6), Some(CommandSource(network-1)))
+[debug] > Exec(shell, None, None)

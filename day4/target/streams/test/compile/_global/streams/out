@@ -1,0 +1,6 @@
+[error] -- [E006] Not Found Error: /home/ari/scala-advent/day4/src/test/scala/Test1.scala:6:50 
+[error] 6 |    assertEquals("I was compiled by Scala 3. :)", msg)
+[error]   |                                                  ^^^
+[error]   |                                                  Not found: msg
+[error] one error found
+[error] one error found

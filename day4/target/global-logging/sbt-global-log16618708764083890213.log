@@ -1,0 +1,16 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Debian Java 11.0.12)
+[debug] Load.defaultLoad until apply took 6221.1637ms
+[debug]                 Load.loadUnit: plugins took 394.464ms
+[debug]                 Load.loadUnit: defsScala took 0.5386ms
+[debug] [Loading] Scanning directory /home/ari/scala-advent/day4/project/project
+[debug]                   Load.loadUnit: mkEval took 10.7931ms

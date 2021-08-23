@@ -1,0 +1,90 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Debian Java 11.0.12)
+[debug] Load.defaultLoad until apply took 3026.4847ms
+[debug]                 Load.loadUnit: plugins took 614.3836ms
+[debug]                 Load.loadUnit: defsScala took 0.4966ms
+[debug] [Loading] Scanning directory /home/ari/scala-advent/day4/project/project
+[debug]                   Load.loadUnit: mkEval took 120.0507ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ari/scala-advent/day4/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 165.5509 ms
+[info] loading settings for project day4-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(day4-build-build) took 593.7362ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id day4-build-build, base: /home/ari/scala-advent/day4/project/project, plugins: List(<none>))) took 1019.8531ms
+[debug] [Loading] Done in /home/ari/scala-advent/day4/project/project, returning: (day4-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 3185.141ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 82.6174ms
+[debug]               Load.loadUnit(file:/home/ari/scala-advent/day4/project/project/, ...) took 4018.0101ms
+[debug]             Load.apply: load took 6319.1522ms
+[debug]             Load.apply: resolveProjects took 36.946ms
+[debug]             Load.apply: finalTransforms took 706.595ms
+[debug]             Load.apply: config.delegates took 68.8301ms
+[debug]             Load.apply: Def.make(settings)... took 5140.625ms
+[debug]             Load.apply: structureIndex took 761.5341ms
+[debug]             Load.apply: mkStreams took 2.2432ms
+[info] loading project definition from /home/ari/scala-advent/day4/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 17116.0176ms
+[debug]           Load.loadUnit: defsScala took 0.0146ms
+[debug] [Loading] Scanning directory /home/ari/scala-advent/day4/project
+[debug]             Load.loadUnit: mkEval took 0.3746ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ari/scala-advent/day4/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.scaladebugger.SbtJdiTools),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.scaladebugger.SbtJdiTools))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,org.scaladebugger.SbtJdiTools,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 5.8403 ms
+[info] loading settings for project day4-build from metals.sbt ...
+[debug]               Load.resolveProject(day4-build) took 2.8127ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id day4-build, base: /home/ari/scala-advent/day4/project, plugins: List(<none>))) took 12.2082ms
+[debug] [Loading] Done in /home/ari/scala-advent/day4/project, returning: (day4-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 62.415ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.5901ms
+[debug]         Load.loadUnit(file:/home/ari/scala-advent/day4/project/, ...) took 17186.6398ms
+[debug]       Load.apply: load took 17192.4464ms
+[debug]       Load.apply: resolveProjects took 0.2572ms
+[debug]       Load.apply: finalTransforms took 46.4232ms
+[debug]       Load.apply: config.delegates took 0.9226ms
+[debug]       Load.apply: Def.make(settings)... took 468.171ms
+[debug]       Load.apply: structureIndex took 171.2927ms
+[debug]       Load.apply: mkStreams took 0.0035ms
+[info] loading project definition from /home/ari/scala-advent/day4/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 19180.0866ms
+[debug]     Load.loadUnit: defsScala took 0.0151ms
+[debug] [Loading] Scanning directory /home/ari/scala-advent/day4
+[debug]       Load.loadUnit: mkEval took 0.5134ms

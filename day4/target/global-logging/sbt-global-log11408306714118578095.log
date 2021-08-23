@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(4ac243b4-e02f-4321-85ce-7618a5af2cd8), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ari/scala-advent/day4/target/scala-3.0.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /home/ari/scala-advent/day4/src/main/scala/Main.scala:43:41 ----------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m43 |[0m    Parser.string(id) <* Parser.char([31m':'[0m)' <*[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                   end of statement expected but ' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /home/ari/scala-advent/day4/src/main/scala/Main.scala:47:22 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m47 |[0m            .backtrack[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      unindent expected, but eof found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 8 s, completed Aug 22, 2021, 12:59:11 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

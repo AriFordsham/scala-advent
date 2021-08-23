@@ -1,85 +1,0 @@
-
-«src/main/scala/Main.scala*'
-_empty_/Main$package. *_empty_€*+
-_empty_/Main$package.hello().*hello€*
-local0 €*lines€*
-local1 €*width€*
-local2 €*hd€*
-local3 €*trees€*
-local4*l€*
-local5*x$1€*
-local6*c€*
-local7*i€*
-local8*i€*
-_empty_/hello# *hello€*+
-_empty_/hello#`<init>`(). €@*<init>€*%
-_empty_/hello#main(). € *main€*(
-_empty_/hello#main().(args)*args€*
-local9 €*error€2
- scala/io/Source.2
- scala/io/Source#2
- 	scala/io/2
- scala/2
-_empty_/Main$package.2
- scala/main#2+
-
- _empty_/Main$package.hello().2
- scala/Unit#2
- local028
-4 :*scala/collection/IterableOnceOps#toList().21
-+ 3#scala/io/BufferedSource#getLines().2)
- scala/io/Source.fromFile().2
- scala/io/Source.2E
-* *7scala/io/LowPriorityCodecImplicits#fallbackSystemCodec.2
- local12
- local028
-& &*scala/collection/immutable/`::`.unapply().2!
-$ &scala/package.`::`.2
-! #local22(
-/ 5java/lang/String#length().2
-, .local22
- local32@
-
-
- 2scala/collection/StrictOptimizedIterableOps#map().2@
- 2scala/collection/StrictOptimizedIterableOps#map().2:
-
- ,scala/collection/IterableOnceOps#toVector().2
- 	local02
- local425
-			 'scala/collection/IterableOps#flatMap().2:
- ,scala/collection/IterableOps#zipWithIndex().26
- (scala/LowPriorityImplicits#wrapString().2
- local42
-		 local62
-		 scala/Tuple2#_1.2
-		 local72
-		 scala/Tuple2#_2.2"
-	 	 "scala/Char#`==`(+2).2
-		 local62!
-	0	 0scala/Some.apply().2
-	,	 0scala/Some.2
-	1	 2local72
-	9	 =scala/None.27
-
-
- )scala/collection/IterableOnceOps#toSet().25
- 'scala/collection/immutable/Range#map().2)
- scala/runtime/RichInt#to().26
- (scala/LowPriorityImplicits#intWrapper().2 
- scala/Int#`/`(+3).29
- +scala/collection/immutable/Vector#length().2
-	 local32
-  !local82.
-/ / scala/collection/SetOps#apply().2.
-* * scala/collection/SeqOps#apply().2
-% *local32 
-, -scala/Int#`*`(+3).2
-+ ,local82 
-1 2scala/Int#`*`(+3).2
-0 1local82
-_empty_/hello#2#
-_empty_/hello#`<init>`().2'
-_empty_/Main$package.hello().23
-)scala/util/CommandLineParser.showError().2
-local9PZ C278A929A081B529ACC5C51BAFEB4B82

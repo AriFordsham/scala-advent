@@ -1,0 +1,17 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 175 __567055f9-13f3-40f3-a1ec-205fecc0a27f, None, None)
+[debug] > Exec(bspScalaMainClasses file:/home/ari/scala-advent/day4/#root/Compile, Some(__567055f9-13f3-40f3-a1ec-205fecc0a27f), Some(CommandSource(network-1)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/scalaMainClasses"})
+[debug] Evaluating tasks: bspScalaMainClasses
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"121","parents":[]},"eventTime":1629718541393,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/ari/scala-advent/day4/#root/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/ari/scala-advent/day4/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/home/ari/scala-advent/day4/#root/Compile"},"diagnostics":[{"range":{"start":{"line":37,"character":6},"end":{"line":37,"character":30}},"severity":2,"source":"sbt","message":"\u001b[33mmatch\u001b[0m may not be exhaustive.\n\nIt would fail on pattern case: Left(_)\n"}],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"121","parents":[]},"eventTime":1629718541409,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/ari/scala-advent/day4/#root/Compile"},"errors":0,"warnings":1,"time":16}})
+[success] Total time: 0 s, completed Aug 23, 2021, 12:35:41 PM
+[debug] > Exec(sbtCompleteExec 175, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 175, Some(175), Some(CommandSource(network-1)))
+[debug] unmatched Processing event for requestId Some(175): None
+[debug] unmatched json response for requestId Some(175): {"status":"Done","channelName":"network-1","execId":"175","commandQueue":["shell"],"exitCode":0}
+[debug] > Exec(shell, None, None)
