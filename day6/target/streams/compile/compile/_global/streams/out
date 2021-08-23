@@ -1,0 +1,12 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E081] Type Error: /home/ari/scala-advent/day6/src/main/scala/Main.scala:33:84 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m33 |[0m  groups[[35mVector[String][0m](input, _:+_, Vector[[35mString[0m]()).map(_.map(_.toSet).foldLeft(Set[[35mChar[0m].empty)(_&_)).foreach(println)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      Missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      I could not infer the type of the parameter elems.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/ari/scala-advent/day6/src/main/scala/Main.scala:33:102 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m33 |[0m  groups[[35mVector[String][0m](input, _:+_, Vector[[35mString[0m]()).map(_.map(_.toSet).foldLeft(Set[[35mChar[0m].empty)(_&_)).foreach(println)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                                                     [31m^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                          value & is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
