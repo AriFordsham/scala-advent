@@ -30503,3 +30503,157 @@ WARNING: Unmatched cancel notification for request id 4319
 [0m2021.08.23 12:35:40 INFO  Processing buildTarget/scalaMainClasses[0m
 [0m2021.08.23 12:35:40 INFO  compiling root[0m
 [0m2021.08.23 12:35:40 INFO  time: compiled root in 16ms[0m
+[0m2021.08.23 12:40:06 INFO  shutting down Metals[0m
+[0m2021.08.23 12:40:06 INFO  Shut down connection with build server.[0m
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@1bdd7de0 rejected from java.util.concurrent.ThreadPoolExecutor@684792c9[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 29720]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.Promise.success(Promise.scala:86)
+	at scala.concurrent.Promise.success$(Promise.scala:86)
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:187)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$1(BspServers.scala:84)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[0m2021.08.23 12:44:14 INFO  Started: Metals version 0.10.5 in workspace '/home/ari/scala-advent/day4' for client Visual Studio Code 1.59.1.[0m
+[0m2021.08.23 12:44:19 INFO  time: initialize in 4.31s[0m
+[0m2021.08.23 12:44:20 INFO  Attempting to connect to the build server...[0m
+[0m2021.08.23 12:44:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ari/.cache/metals/bsp.trace.json[0m
+[0m2021.08.23 12:44:20 WARN  no build target for: /home/ari/scala-advent/day4/src/main/scala/Main.scala[0m
+[0m2021.08.23 12:44:21 WARN  No build session currently active to reload.[0m
+[0m2021.08.23 12:44:25 INFO  time: Connected to build server in 4.65s[0m
+[0m2021.08.23 12:44:25 INFO  Connected to Build server: sbt v1.5.5[0m
+[0m2021.08.23 12:44:29 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.23 12:44:29 INFO  Processing workspace/buildTargets[0m
+[0m2021.08.23 12:44:29 INFO  Processing buildTarget/scalacOptions[0m
+[0m2021.08.23 12:44:29 INFO  Processing buildTarget/sources[0m
+[0m2021.08.23 12:44:29 INFO  Processing buildTarget/dependencySources[0m
+[0m2021.08.23 12:44:29 INFO  time: Imported build in 0.35s[0m
+[0m2021.08.23 12:44:31 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Aug 23, 2021 12:44:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fari%2Fscala-advent%2Fday4%2Fsrc%2Fmain%2Fscala%2FMain.scala:10: error: expected start of definition
+@main def hello: Unit = 
+      ^
+file%3A%2F%2F%2Fhome%2Fari%2Fscala-advent%2Fday4%2Fsrc%2Fmain%2Fscala%2FMain.scala:10: error: expected start of definition
+@main def hello: Unit = 
+      ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4516)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.08.23 12:44:33 INFO  time: code lens generation in 12s[0m
+Aug 23, 2021 12:44:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fari%2Fscala-advent%2Fday4%2Fsrc%2Fmain%2Fscala%2FMain.scala:10: error: expected start of definition
+@main def hello: Unit = 
+      ^
+file%3A%2F%2F%2Fhome%2Fari%2Fscala-advent%2Fday4%2Fsrc%2Fmain%2Fscala%2FMain.scala:10: error: expected start of definition
+@main def hello: Unit = 
+      ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4516)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.08.23 12:44:34 INFO  time: code lens generation in 12s[0m
+[0m2021.08.23 12:44:36 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.08.23 12:44:36 INFO  time: indexed workspace in 7.15s[0m
+[0m2021.08.23 12:44:37 INFO  Processing buildTarget/scalaMainClasses[0m
+[0m2021.08.23 12:44:37 INFO  compiling root[0m
+[0m2021.08.23 12:44:39 INFO  time: compiled root in 2.51s[0m
+[0m2021.08.23 12:44:39 INFO  compiling root-test[0m
+[0m2021.08.23 12:44:39 INFO  time: compiled root-test in 1ms[0m
+[0m2021.08.23 12:44:39 INFO  Processing buildTarget/scalaTestClasses[0m
+[0m2021.08.23 12:44:39 INFO  compiling root[0m
+[0m2021.08.23 12:44:39 INFO  time: compiled root in 34ms[0m
+[0m2021.08.23 12:44:39 INFO  compiling root-test[0m
+[0m2021.08.23 12:44:39 INFO  time: compiled root-test in 5ms[0m
+[0m2021.08.23 12:44:39 INFO  Processing buildTarget/compile[0m
+[0m2021.08.23 12:44:39 INFO  compiling root[0m
+[0m2021.08.23 12:44:39 INFO  time: compiled root in 6ms[0m
+[0m2021.08.23 12:44:39 INFO  compiling root-test[0m
+[0m2021.08.23 12:44:39 INFO  time: compiled root-test in 1ms[0m
+[0m2021.08.23 12:44:39 INFO  Processing buildTarget/scalaMainClasses[0m
+[0m2021.08.23 12:44:39 INFO  compiling root[0m
+[0m2021.08.23 12:44:39 INFO  time: compiled root in 19ms[0m
+[0m2021.08.23 12:44:39 INFO  compiling root-test[0m
+[0m2021.08.23 12:44:39 INFO  time: compiled root-test in 1ms[0m
+[0m2021.08.23 12:44:39 INFO  Processing buildTarget/scalaTestClasses[0m
+[0m2021.08.23 12:44:39 INFO  compiling root[0m
+[0m2021.08.23 12:44:39 INFO  time: compiled root in 56ms[0m
+[0m2021.08.23 12:44:39 INFO  compiling root-test[0m
+[0m2021.08.23 12:44:39 INFO  time: compiled root-test in 7ms[0m
+Aug 23, 2021 1:19:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.08.23 13:19:57 INFO  shutting down Metals[0m
+[0m2021.08.23 13:19:57 INFO  Shut down connection with build server.[0m
