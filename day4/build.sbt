@@ -10,5 +10,5 @@ lazy val root = project
 
     libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test",
     libraryDependencies += "org.typelevel" %% "cats-core" % "2.6.1",
-    libraryDependencies += "org.typelevel" %% "cats-parse" % "0.3.4"
+    libraryDependencies += "org.typelevel" %% "cats-parse" % "0.3.10"
   )
